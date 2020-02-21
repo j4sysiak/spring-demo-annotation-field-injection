@@ -20,7 +20,7 @@ public class TennisCoach implements Coach {
 	public TennisCoach() {
 		System.out.println(">> TennisCoach: inside default constructor");
 	}
-
+	
 	//injecting dependency by a setter method (must have @Autowired annotation)
 //	@Autowired
 //	public void setFortuneService(FortuneService theFortuneService) {
