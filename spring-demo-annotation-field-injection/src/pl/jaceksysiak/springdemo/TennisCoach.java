@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 @Component
 public class TennisCoach implements Coach {
 
+	//injecting dependency by a field
 	@Autowired
 	private FortuneService fortuneService;
 
